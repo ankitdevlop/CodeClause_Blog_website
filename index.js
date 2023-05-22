@@ -1,7 +1,7 @@
 console.log("Welcome to articles app. This is index.js");
 showarticles();
 
-// If user adds a note, add it to the localStorage
+// If user adds a Article, add it to the localStorage
 let addtn = document.getElementById("btn");
 addtn.addEventListener("click", function (e) {
   let addTxt = document.getElementById("addTxt");
